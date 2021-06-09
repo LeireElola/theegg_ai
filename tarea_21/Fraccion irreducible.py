@@ -3,7 +3,7 @@ Lenguaje de programación: Python 3
 Descripción del programa:
 Es un programa que dado un número introducido entre 0,0001 y 0,9999 (no más de 4 cifras decimales),obtiene y muestra la correspondiente fracción irreducible.
 """
-#Vemos que la fracción mínima es de 1/10000 y la máxima 9999/10000, por ello tendremos que multiplicar y restar todo con el 10000 (Sólo 4 decimales)
+#Vemos que la fracción mínima es de 1/10000 y la máxima 9999/10000, por ello tendremos que multiplicar y dividir todo con el 10000 (Sólo 4 decimales)
 #Declaramos variables globales para que puedan ser utilizados por diferentes funciones.
 #Damos valor al denominador. Debido a que vamos a multiplicar por 10000 en el numerador es necesario dividir por el mismo valor si queremos conseguir el resultado intrpducido por el usuario
 #el denominador será un constante
