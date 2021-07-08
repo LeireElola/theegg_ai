@@ -54,7 +54,7 @@ while True:
         #Si el usuario decide continuar, inicializamos los valores
         vidagiglipop=100
         vidapikachu=100
-        ronda=0
+        ronda=1
     else:
         #Si el usuario selecciona salir, termina el juego
         print("Hasta la proxima!")
